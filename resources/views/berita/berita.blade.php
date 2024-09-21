@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-@section('title', 'Website Resmi Pemerintah Desa '. $desa->nama_desa . ' - Berita')
+@section('title', 'BUKU BESAR PENDUDUK Pemerintah Desa '. $desa->nama_desa . ' - Berita')
 
 @section('styles')
 <meta name="description" content="Macam-macam berita Desa {{ $desa->nama_desa }}, Kecamatan {{ $desa->nama_kecamatan }}, Kabupaten {{ $desa->nama_kabupaten }}.">

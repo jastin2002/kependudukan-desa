@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-@section('title', 'Website Resmi Pemerintah Desa '. App\Desa::find(1)->nama_desa . ' - Statistik Penduduk')
+@section('title', 'BUKU BESAR PENDUDUK Pemerintah Desa '. App\Desa::find(1)->nama_desa . ' - Statistik Penduduk')
 
 @section('styles')
 <meta name="description" content="Statistik Penduduk Desa {{ App\Desa::find(1)->nama_desa }}, Kecamatan {{ App\Desa::find(1)->nama_kecamatan }}, Kabupaten {{ App\Desa::find(1)->nama_kabupaten }}.">

@@ -117,7 +117,7 @@
                     <div class="col-xl-6">
                         <div class="copyright text-center text-xl-right text-muted">
                             Powered By <a href="https://www.instagram.com/yogaadyngrha_/" class="font-weight-bold ml-1"
-                                target="_blank">YOGA ADY NUGRAHA</a>
+                                target="_blank">Tech Info 19</a>
                         </div>
                     </div>
                 </div>

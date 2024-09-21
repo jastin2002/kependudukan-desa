@@ -23,11 +23,11 @@
             <div style="height:90px;width:90px;float:left" class="">
             </div>
             <div class="text-center lh-20px">
-                <span style="font-size: 14pt" class="font-weight-bold">PEMERINTAHAN KABUPATEN MUARO JAMBI</span><br>
-                <span style="font-size: 14pt" class="font-weight-bold">KECAMATAN SUNGAI BAHAR</span><br>
-                <span style="font-size: 14pt" class="font-weight-bold">DESA TANJUNG HARAPAN</span><br>
+                <span style="font-size: 14pt" class="font-weight-bold">PEMERINTAHAN KABUPATEN BUTON TENGAH</span><br>
+                <span style="font-size: 14pt" class="font-weight-bold">KECAMATAN MAWASANGKA TIMUR</span><br>
+                <span style="font-size: 14pt" class="font-weight-bold">DESA LASORI</span><br>
                 <div style="font-size: 11pt; font-style: italic">
-                  Jl. Garuda RT. 02 Kecamatan Sungai Bahar Kabupaten Muaro Jambi, 36365
+                  Lasori, Kecamatan Mawasangka Timur, Kabupaten Buton Tengah, Sulawesi Tenggara
                 </div>
             </div>
             <hr style="border-top: 5px double #000000;">
@@ -68,11 +68,11 @@
           <div class="mt-3">
             <div style="margin-left: 50%; width: 50%" class="text-center float-right">
                 <p style="margin-bottom: 100px">
-                    Tanjung Harapan, {{date('d F Y') }}  <br>
-                    Kepala Desa Tanjung Harapan
+                    Lasori, {{date('d F Y') }}  <br>
+                    Kepala Desa Lasori
                 </p>
                 <p style="" class="bold underline"><u><b>
-                    MARWANTO
+                    Buradin, S.T.
                 </p></u></p>
             </div>
           </div>

@@ -14,10 +14,10 @@ class UserSeeder extends Seeder
     {
         User::create([
             'nama'              => 'Kadus Marga Mulya',
-            'email'             => 'kadus2@gmail.com',
+            'email'             => 'admin@gmail.com',
             'email_verified_at' => now(),
             'role'              => 'kependudukan',
-            'password'          => bcrypt('kadus123'),
+            'password'          => bcrypt('admin123'),
         ]);
     }
 }

@@ -1,8 +1,8 @@
 @extends('layouts.layout')
-@section('title', 'Website Resmi Pemerintah Desa '. $desa->nama_desa  .' - Beranda')
+@section('title', 'BUKU BESAR PENDUDUK Pemerintah Desa '. $desa->nama_desa  .' - Beranda')
 
 @section('styles')
-<meta name="description" content="Website Resmi Pemerintah Desa {{ $desa->nama_desa }}, Kecamatan {{ $desa->nama_kecamatan }}, Kabupaten {{ $desa->nama_kabupaten }}. Melayani pembuatan surat keterangan secara online">
+<meta name="description" content="BUKU BESAR PENDUDUK Pemerintah Desa {{ $desa->nama_desa }}, Kecamatan {{ $desa->nama_kecamatan }}, Kabupaten {{ $desa->nama_kabupaten }}. Melayani pembuatan surat keterangan secara online">
 
 <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
 <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
@@ -33,7 +33,7 @@
 @endsection
 
 @section('header')
-<h1 class="text-white text-sm text-muted">SELAMAT DATANG DI WEBSITE RESMI <br> DESA {{ Str::upper($desa->nama_desa) }} <br></br></h1>
+<h1 class="text-white text-sm text-muted">SELAMAT DATANG DI BUKU BESAR PENDUDUK <br> DESA {{ Str::upper($desa->nama_desa) }} <br></br></h1>
 
 <div class="text-center mb-4">
     <img height="150px" src="{{ url('/storage/mj.png') }}" alt="logo">
@@ -207,7 +207,8 @@
                 </div>
             </div>
         </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.42689395552526!2d103.53633483825466!3d-1.988726225244253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2f89ddd8913a97%3A0x60eaa07563dc7008!2sSungai%20Bahar%209%20Desa%20Tanjung%20Harapan!5e0!3m2!1sid!2sid!4v1701433488612!5m2!1sid!2sid%22" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.42689395552526!2d103.53633483825466!3d-1.988726225244253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2f89ddd8913a97%3A0x60eaa07563dc7008!2sSungai%20Bahar%209%20Desa%20Tanjung%20Harapan!5e0!3m2!1sid!2sid!4v1701433488612!5m2!1sid!2sid%22" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31777.673945164068!2d122.41612635522569!3d-5.385043654002567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da380d08b189dad%3A0xde8da29483669a0e!2sLasori%2C%20Mawasangka%20Tim.%2C%20Kabupaten%20Buton%2C%20Sulawesi%20Tenggara!5e0!3m2!1sid!2sid!4v1725289407022!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 @endsection
 
 @push('scripts')

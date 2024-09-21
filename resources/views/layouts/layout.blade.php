@@ -28,7 +28,7 @@
     <meta name="base-url" content="{{ url('') }}">
 
     <!-- SEO Management-->
-    <meta name="author" content="Yoga Ady Nugraha">
+    <meta name="author" content="Tech Info 19">
 
     <title>@yield('title')</title>
 
@@ -285,7 +285,7 @@
             </div>
         </nav>
         <!-- Header -->
-        <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="background-image: url({{ asset('/img/sawit3.png') }}); background-size: cover; background-position: center top;">
+        <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="background-image: url({{ asset('/img/desa.jpg') }}); background-size: cover; background-position: center top;">
         <span class="mask bg-primary opacity-6"></span>
         <div class="container">
                 <div class="header-body text-center mb-7">
@@ -319,7 +319,7 @@
                     <div class="col-xl-6">
                         <div class="copyright text-center text-xl-right text-muted">
                             Powered By <a href="https://www.instagram.com/yogaadyngrha_/" class="font-weight-bold ml-1"
-                                target="_blank">YOGA ADY NUGRAHA</a>
+                                target="_blank">Tech Info 19</a>
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,7 @@
 
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.21/datatables.min.js"></script>
 
-<div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="background-image: url({{ asset('/img/sawit3.png') }}); background-size: cover; background-position: center top;">
+<div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="background-image: url({{ asset('/img/desa.jpg') }}); background-size: cover; background-position: center top;">
     <span class="mask bg-primary opacity-6"></span>
 <div class="container-fluid">
     <div class="row">

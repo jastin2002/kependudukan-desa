@@ -2,7 +2,7 @@
 @section('title', 'Edit Detail Cetak Surat')
 
 @section('content-header')
-<div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="background-image: url({{ asset('/img/sawit3.png') }}); background-size: cover; background-position: center top;">
+<div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="background-image: url({{ asset('/img/desa.jpg') }}); background-size: cover; background-position: center top;">
         <span class="mask bg-primary opacity-6"></span>
     <div class="container-fluid">
         <div class="row">
